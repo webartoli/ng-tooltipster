@@ -1,0 +1,14 @@
+{ 
+    "compilerOptions": {
+        "outFile": "dist/ng-tooltipster.js",
+        "removeComments": true
+    },
+    "files": [
+        "src/ITooltipsterConfig.ts",
+        "src/tooltipster.ts"
+    ],
+    "exclude": [
+        "typings/main/**/*",
+        "typings/main.d.ts"
+    ]
+}

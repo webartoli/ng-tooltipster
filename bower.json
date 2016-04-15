@@ -1,0 +1,26 @@
+{
+  "name": "ng-tooltipster",
+  "authors": [
+    "Claudio Bartoli <claudio@barto.li>"
+  ],
+  "description": "Angular 1 adapter for tooltipster",
+  "main": "dist/ng-tooltipster.js",
+  "keywords": [
+    "tooltipster",
+    "jquery",
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/webartoli/ng-tooltipster",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tooltipster": "^3.3.0",
+    "angular": "^1.5.3"
+  }
+}
