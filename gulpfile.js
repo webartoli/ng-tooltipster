@@ -4,7 +4,7 @@ var ts = require('gulp-typescript');
 
 var tsProject = ts.createProject('tsconfig.json');
  
-gulp.task('serve',['typescript'], serve(['dist','bower_components','public']));
+gulp.task('serve',['typescript'], serve(['dist','www']));
 
 gulp.task('typescript', function() {
     var tsResult = tsProject.src()
